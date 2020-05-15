@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Selenium Traning Batch1Suite]" parallel="methods">
+  <parameter name="appUrl" value="http://www.ntltaxi.com/"/>
+  <test name="BookingTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.Selenium.TestNGPackage.Parallel">
+        <methods>
+          <include name="tc04" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Selenium.TestNGPackage.Parallel -->
+    </classes>
+  </test> <!-- BookingTest(failed) -->
+</suite> <!-- Failed suite [Selenium Traning Batch1Suite] -->

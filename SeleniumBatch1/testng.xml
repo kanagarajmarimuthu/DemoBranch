@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Traning Batch1Suite">
+    
+  <parameter name="appUrl" value="http://www.ntltaxi.com/"></parameter>  
+   
+  
+  <test name="BookingTest">
+    <classes>
+     <!--  <class name="com.Selenium.TestNGPackage.Annatation">
+      <methods>
+          <include name="tc1"></include>
+      </methods>
+      </class> -->
+      
+      
+      <!-- <class name="com.Selenium.TestNGPackage.SingUpTest"/> -->
+      <!-- <class name="com.Selenium.TestNGPackage.BookingTest"/> -->
+       <class name="com.Selenium.TestNGPackage.DataProviderWithExcelTest"/>
+      
+    </classes>
+  </test>
+  
+   <!-- <test name="SingupTest">
+    <classes>
+     
+      <class name="com.Selenium.TestNGPackage.SingUpTest">
+          <methods>
+          <exclude name="tc1"></exclude>
+          
+      </methods>
+      </class>
+      
+    </classes>
+  </test> -->
+  
+  
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

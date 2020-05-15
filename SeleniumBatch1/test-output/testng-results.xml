@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Traning Batch1Suite" duration-ms="46" started-at="2020-05-15T19:00:22Z" finished-at="2020-05-15T19:00:22Z">
+    <groups>
+      <group name="Regression">
+        <method signature="GroupMethod.testcase()[pri:0, instance:com.Selenium.Advance.GroupMethod@12cc05a]" name="testcase" class="com.Selenium.Advance.GroupMethod"/>
+        <method signature="GroupMethod.testcase2()[pri:0, instance:com.Selenium.Advance.GroupMethod@12cc05a]" name="testcase2" class="com.Selenium.Advance.GroupMethod"/>
+      </group> <!-- Regression -->
+      <group name="adoc">
+        <method signature="GroupMethod.testcase3()[pri:0, instance:com.Selenium.Advance.GroupMethod@12cc05a]" name="testcase3" class="com.Selenium.Advance.GroupMethod"/>
+      </group> <!-- adoc -->
+    </groups>
+    <test name="BookingTest" duration-ms="46" started-at="2020-05-15T19:00:22Z" finished-at="2020-05-15T19:00:22Z">
+      <class name="com.Selenium.Advance.GroupMethod">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:com.Selenium.Advance.GroupMethod@12cc05a]" name="testcase" duration-ms="21" started-at="2020-05-16T00:30:22Z" finished-at="2020-05-16T00:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.Selenium.Advance.GroupMethod@12cc05a]" name="testcase2" duration-ms="1" started-at="2020-05-16T00:30:22Z" finished-at="2020-05-16T00:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.Selenium.Advance.GroupMethod@12cc05a]" name="testcase3" duration-ms="1" started-at="2020-05-16T00:30:22Z" finished-at="2020-05-16T00:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- com.Selenium.Advance.GroupMethod -->
+    </test> <!-- BookingTest -->
+  </suite> <!-- Selenium Traning Batch1Suite -->
+</testng-results>
